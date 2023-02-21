@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>654257133406-1dqu4gf0mtbinkdgrnrgns7tm5qj36ps.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.654257133406-1dqu4gf0mtbinkdgrnrgns7tm5qj36ps</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBFu_1p8YDe9vNUC-e-ZhZB-tmg4Up2lJg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>654257133406</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>shadyMark.Thoughts</string>
+	<key>PROJECT_ID</key>
+	<string>thoughts-eaf65</string>
+	<key>STORAGE_BUCKET</key>
+	<string>thoughts-eaf65.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:654257133406:ios:32c7485c3cc8d5b84aa1cf</string>
+</dict>
+</plist>

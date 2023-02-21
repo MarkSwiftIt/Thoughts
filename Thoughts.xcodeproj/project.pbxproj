@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1DD0A959CAAA17C3A93E0038 /* Pods_Thoughts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 175BBDD346E6D10FF0294CA1 /* Pods_Thoughts.framework */; };
+		776E0A5829A4B5EE00343F99 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 776E0A5729A4B5EE00343F99 /* GoogleService-Info.plist */; };
+		776E0A5A29A4BDCE00343F99 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776E0A5929A4BDCE00343F99 /* User.swift */; };
+		776E0A5C29A4BDDC00343F99 /* BlogPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776E0A5B29A4BDDB00343F99 /* BlogPost.swift */; };
 		7784F9B629A3DF2900487832 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7784F9B529A3DF2900487832 /* AppDelegate.swift */; };
 		7784F9B829A3DF2900487832 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7784F9B729A3DF2900487832 /* SceneDelegate.swift */; };
 		7784F9BA29A3DF2900487832 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7784F9B929A3DF2900487832 /* HomeViewController.swift */; };
@@ -19,7 +22,7 @@
 		7784F9D529A3E1A200487832 /* ViewPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7784F9D429A3E1A200487832 /* ViewPostViewController.swift */; };
 		7784F9D729A3E1BC00487832 /* CreateNewPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7784F9D629A3E1BC00487832 /* CreateNewPostViewController.swift */; };
 		7784F9D929A3E1E500487832 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7784F9D829A3E1E500487832 /* TabBarViewController.swift */; };
-		7784F9DB29A3E25900487832 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7784F9DA29A3E25800487832 /* APIManager.swift */; };
+		7784F9DB29A3E25900487832 /* IAPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7784F9DA29A3E25800487832 /* IAPManager.swift */; };
 		7784F9DD29A3E26800487832 /* DataBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7784F9DC29A3E26800487832 /* DataBaseManager.swift */; };
 		7784F9DF29A3E27200487832 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7784F9DE29A3E27200487832 /* AuthManager.swift */; };
 		7784F9E129A3E27E00487832 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7784F9E029A3E27E00487832 /* StorageManager.swift */; };
@@ -27,6 +30,9 @@
 
 /* Begin PBXFileReference section */
 		175BBDD346E6D10FF0294CA1 /* Pods_Thoughts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Thoughts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		776E0A5729A4B5EE00343F99 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		776E0A5929A4BDCE00343F99 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		776E0A5B29A4BDDB00343F99 /* BlogPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogPost.swift; sourceTree = "<group>"; };
 		7784F9B229A3DF2900487832 /* Thoughts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thoughts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7784F9B529A3DF2900487832 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7784F9B729A3DF2900487832 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,7 +46,7 @@
 		7784F9D429A3E1A200487832 /* ViewPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPostViewController.swift; sourceTree = "<group>"; };
 		7784F9D629A3E1BC00487832 /* CreateNewPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewPostViewController.swift; sourceTree = "<group>"; };
 		7784F9D829A3E1E500487832 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
-		7784F9DA29A3E25800487832 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		7784F9DA29A3E25800487832 /* IAPManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPManager.swift; sourceTree = "<group>"; };
 		7784F9DC29A3E26800487832 /* DataBaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseManager.swift; sourceTree = "<group>"; };
 		7784F9DE29A3E27200487832 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
 		7784F9E029A3E27E00487832 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
@@ -66,7 +72,6 @@
 				996F68A9676B1B462E8FB460 /* Pods-Thoughts.debug.xcconfig */,
 				D2BE4D7CFA7577DCC2E1AF4D /* Pods-Thoughts.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -112,6 +117,8 @@
 		7784F9C929A3E0BC00487832 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				776E0A5929A4BDCE00343F99 /* User.swift */,
+				776E0A5B29A4BDDB00343F99 /* BlogPost.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -129,6 +136,7 @@
 			children = (
 				7784F9B529A3DF2900487832 /* AppDelegate.swift */,
 				7784F9B729A3DF2900487832 /* SceneDelegate.swift */,
+				776E0A5729A4B5EE00343F99 /* GoogleService-Info.plist */,
 				7784F9BE29A3DF2A00487832 /* Assets.xcassets */,
 			);
 			path = Other;
@@ -147,7 +155,7 @@
 		7784F9CD29A3E0DF00487832 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
-				7784F9DA29A3E25800487832 /* APIManager.swift */,
+				7784F9DA29A3E25800487832 /* IAPManager.swift */,
 				7784F9DC29A3E26800487832 /* DataBaseManager.swift */,
 				7784F9DE29A3E27200487832 /* AuthManager.swift */,
 				7784F9E029A3E27E00487832 /* StorageManager.swift */,
@@ -245,6 +253,7 @@
 			files = (
 				7784F9C229A3DF2A00487832 /* LaunchScreen.storyboard in Resources */,
 				7784F9BF29A3DF2A00487832 /* Assets.xcassets in Resources */,
+				776E0A5829A4B5EE00343F99 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,12 +306,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				776E0A5C29A4BDDC00343F99 /* BlogPost.swift in Sources */,
 				7784F9D329A3E19000487832 /* SignUpViewController.swift in Sources */,
 				7784F9DF29A3E27200487832 /* AuthManager.swift in Sources */,
 				7784F9D529A3E1A200487832 /* ViewPostViewController.swift in Sources */,
-				7784F9DB29A3E25900487832 /* APIManager.swift in Sources */,
+				7784F9DB29A3E25900487832 /* IAPManager.swift in Sources */,
 				7784F9BA29A3DF2900487832 /* HomeViewController.swift in Sources */,
 				7784F9B629A3DF2900487832 /* AppDelegate.swift in Sources */,
+				776E0A5A29A4BDCE00343F99 /* User.swift in Sources */,
 				7784F9D929A3E1E500487832 /* TabBarViewController.swift in Sources */,
 				7784F9CF29A3E17300487832 /* ProfileViewController.swift in Sources */,
 				7784F9D729A3E1BC00487832 /* CreateNewPostViewController.swift in Sources */,
