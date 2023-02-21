@@ -1,0 +1,2 @@
+# Thoughts
+Blog under construction.
