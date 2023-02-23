@@ -26,6 +26,10 @@
 		7784F9DD29A3E26800487832 /* DataBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7784F9DC29A3E26800487832 /* DataBaseManager.swift */; };
 		7784F9DF29A3E27200487832 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7784F9DE29A3E27200487832 /* AuthManager.swift */; };
 		7784F9E129A3E27E00487832 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7784F9E029A3E27E00487832 /* StorageManager.swift */; };
+		77C5642829A7A02F00632E85 /* PayWallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C5642729A7A02F00632E85 /* PayWallViewController.swift */; };
+		77C5642B29A7A43E00632E85 /* PayWallHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C5642A29A7A43E00632E85 /* PayWallHeaderView.swift */; };
+		77C5642D29A7A5AD00632E85 /* Extension + UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C5642C29A7A5AD00632E85 /* Extension + UIView.swift */; };
+		77C5642F29A7AD9800632E85 /* PayWallDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C5642E29A7AD9800632E85 /* PayWallDescriptionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +54,11 @@
 		7784F9DC29A3E26800487832 /* DataBaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseManager.swift; sourceTree = "<group>"; };
 		7784F9DE29A3E27200487832 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
 		7784F9E029A3E27E00487832 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		77C5642729A7A02F00632E85 /* PayWallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayWallViewController.swift; sourceTree = "<group>"; };
+		77C5642929A7A1C600632E85 /* Congiguration.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Congiguration.storekit; sourceTree = "<group>"; };
+		77C5642A29A7A43E00632E85 /* PayWallHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayWallHeaderView.swift; sourceTree = "<group>"; };
+		77C5642C29A7A5AD00632E85 /* Extension + UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UIView.swift"; sourceTree = "<group>"; };
+		77C5642E29A7AD9800632E85 /* PayWallDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayWallDescriptionView.swift; sourceTree = "<group>"; };
 		996F68A9676B1B462E8FB460 /* Pods-Thoughts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thoughts.debug.xcconfig"; path = "Target Support Files/Pods-Thoughts/Pods-Thoughts.debug.xcconfig"; sourceTree = "<group>"; };
 		D2BE4D7CFA7577DCC2E1AF4D /* Pods-Thoughts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thoughts.release.xcconfig"; path = "Target Support Files/Pods-Thoughts/Pods-Thoughts.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -127,6 +136,8 @@
 			isa = PBXGroup;
 			children = (
 				7784F9C029A3DF2A00487832 /* LaunchScreen.storyboard */,
+				77C5642A29A7A43E00632E85 /* PayWallHeaderView.swift */,
+				77C5642E29A7AD9800632E85 /* PayWallDescriptionView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -138,6 +149,7 @@
 				7784F9B729A3DF2900487832 /* SceneDelegate.swift */,
 				776E0A5729A4B5EE00343F99 /* GoogleService-Info.plist */,
 				7784F9BE29A3DF2A00487832 /* Assets.xcassets */,
+				77C5642C29A7A5AD00632E85 /* Extension + UIView.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -145,6 +157,7 @@
 		7784F9CC29A3E0D800487832 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				77C5642629A7A01100632E85 /* Other */,
 				7784F9E229A3E49B00487832 /* Core Tabs */,
 				7784F9E329A3E4AE00487832 /* Auth */,
 				7784F9E429A3E4B900487832 /* Posts */,
@@ -167,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				7784F9B929A3DF2900487832 /* HomeViewController.swift */,
+				77C5642929A7A1C600632E85 /* Congiguration.storekit */,
 				7784F9CE29A3E17300487832 /* ProfileViewController.swift */,
 				7784F9D829A3E1E500487832 /* TabBarViewController.swift */,
 			);
@@ -189,6 +203,14 @@
 				7784F9D629A3E1BC00487832 /* CreateNewPostViewController.swift */,
 			);
 			path = Posts;
+			sourceTree = "<group>";
+		};
+		77C5642629A7A01100632E85 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				77C5642729A7A02F00632E85 /* PayWallViewController.swift */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -307,10 +329,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				776E0A5C29A4BDDC00343F99 /* BlogPost.swift in Sources */,
+				77C5642F29A7AD9800632E85 /* PayWallDescriptionView.swift in Sources */,
 				7784F9D329A3E19000487832 /* SignUpViewController.swift in Sources */,
 				7784F9DF29A3E27200487832 /* AuthManager.swift in Sources */,
 				7784F9D529A3E1A200487832 /* ViewPostViewController.swift in Sources */,
 				7784F9DB29A3E25900487832 /* IAPManager.swift in Sources */,
+				77C5642B29A7A43E00632E85 /* PayWallHeaderView.swift in Sources */,
 				7784F9BA29A3DF2900487832 /* HomeViewController.swift in Sources */,
 				7784F9B629A3DF2900487832 /* AppDelegate.swift in Sources */,
 				776E0A5A29A4BDCE00343F99 /* User.swift in Sources */,
@@ -319,8 +343,10 @@
 				7784F9D729A3E1BC00487832 /* CreateNewPostViewController.swift in Sources */,
 				7784F9D129A3E18700487832 /* SignInViewController.swift in Sources */,
 				7784F9B829A3DF2900487832 /* SceneDelegate.swift in Sources */,
+				77C5642D29A7A5AD00632E85 /* Extension + UIView.swift in Sources */,
 				7784F9DD29A3E26800487832 /* DataBaseManager.swift in Sources */,
 				7784F9E129A3E27E00487832 /* StorageManager.swift in Sources */,
+				77C5642829A7A02F00632E85 /* PayWallViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

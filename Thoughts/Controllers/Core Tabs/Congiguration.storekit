@@ -1,0 +1,56 @@
+{
+  "identifier" : "30F7FC97",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+
+  ],
+  "settings" : {
+
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "F81EFCC2",
+      "localizations" : [
+
+      ],
+      "name" : "Premium",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "4.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "BA1C043B",
+          "introductoryOffer" : {
+            "internalID" : "6FDD4C4D",
+            "paymentMode" : "free",
+            "subscriptionPeriod" : "P1W"
+          },
+          "localizations" : [
+            {
+              "description" : "Unlock all Thoughts",
+              "displayName" : "Premium Monthly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.temporary.id",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Premium",
+          "subscriptionGroupID" : "F81EFCC2",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 2,
+    "minor" : 0
+  }
+}
